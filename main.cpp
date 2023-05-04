@@ -4,10 +4,9 @@
 
 int main(){
 
-  //Task A
+  //--------------------------------------Task A
   std:: cout << "(Task A)" << std:: endl;
 
-  //test1
   std:: vector<int> v;
   v = makeVector(10); //initializing vector v to be a size of 10 with a range from 0 to 9
 
@@ -17,7 +16,7 @@ int main(){
   std:: cout << "" << std:: endl;
 
   
-  //test2
+  
   std:: vector<int> vec1;
   vec1 = makeVector(5); 
 
@@ -27,7 +26,7 @@ int main(){
   std:: cout << "" << std:: endl;
 
   
-  //test3
+
   std:: vector<int> vec2;
   vec2 = makeVector(2); 
 
@@ -36,12 +35,11 @@ int main(){
   }
   std:: cout << "" << std:: endl;
   
-  std:: cout << "--------------------------------------------" << std:: endl;
+  std:: cout << "---------------------------------------------------------------------------------" << std:: endl;
 
-  //Task B
+  //--------------------------------------Task B
   std:: cout << "(Task B)" << std:: endl;
 
-  //test1
   std:: vector<int> vectorB {1,2,-1,3,4,-1,6}; 
   std:: vector<int> happy;
   happy = goodVibes(vectorB); //storing only positive integers to happy vector from vectorB
@@ -52,7 +50,7 @@ int main(){
   std:: cout << "" << std:: endl;
 
   
-  //test2
+  
   std:: vector<int> vectorB1 {-3,-1,1,1,2,3}; 
   std:: vector<int> happy1;
   happy1 = goodVibes(vectorB1); 
@@ -62,8 +60,9 @@ int main(){
   }
   std:: cout << "" << std:: endl;
 
+
   
-  //test3
+
   std:: vector<int> vectorB2 {-5,-4,3,-2,-1}; 
   std:: vector<int> happy2;
   happy2 = goodVibes(vectorB2); 
@@ -73,12 +72,11 @@ int main(){
   }
   std:: cout << "" << std:: endl;
 
-  std:: cout << "--------------------------------------------" << std:: endl;
+  std:: cout << "---------------------------------------------------------------------------------" << std:: endl;
 
-  //Task C
+  //--------------------------------------Task C
   std:: cout << "(Task C)" << std:: endl;
 
-  //test1
   std:: vector<int> goku {1,2,3};
   std:: vector<int> vegeta {4,5};
   gogeta(goku, vegeta); //adding and removing the vegeta elements that were added to the goku vector
@@ -89,7 +87,7 @@ int main(){
   std:: cout << "" << std:: endl;
 
   
-  //test2
+
   std:: vector<int> goku1 {5,9,3,4,5,6};
   std:: vector<int> vegeta1 {1,2,3};
   gogeta(goku1, vegeta1);
@@ -100,7 +98,7 @@ int main(){
   std:: cout << "" << std:: endl;
 
   
-  //test3
+
   std:: vector<int> goku2 {0};
   std:: vector<int> vegeta2 {1,2,3};
   gogeta(goku2, vegeta2);
@@ -110,12 +108,11 @@ int main(){
   }
   std:: cout << "" << std:: endl;
   
-  std:: cout << "--------------------------------------------" << std:: endl;
+  std:: cout << "---------------------------------------------------------------------------------" << std:: endl;
 
-  //Task D
+  //--------------------------------------Task D
   std:: cout << "(Task D)" << std:: endl;
 
-  //test1
   std:: vector<int> v1{1,2,3};
   std:: vector<int> v2{4,5};
   
@@ -128,7 +125,7 @@ int main(){
   std:: cout << "" << std:: endl;
   
 
-  //test2
+
   std:: vector<int> v3{1,2,3,6,7,8};
   std:: vector<int> v4{4,5};
   
@@ -141,7 +138,7 @@ int main(){
   std:: cout << "" << std:: endl;
   
 
-  //test3
+
   std:: vector<int> v5{1,2,3};
   std:: vector<int> v6{4,5,1,3,6,};
   
@@ -152,6 +149,8 @@ int main(){
     std:: cout << addIndexValues2[i]; //5,7,4,3,6
   }
   std:: cout << "" << std:: endl;
-  
+
+
   
 }
+

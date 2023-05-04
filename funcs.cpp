@@ -3,8 +3,7 @@
 #include "funcs.h"
 
 /*Task A
-- Program a function called vector<int> makeVector(int n) that returns a vector of n integers that range from 0 to n-1. 
-- Call your program vectors.cpp. Your function must be implemented outside the main function and must return a vector.
+- Returns a vector of n integers that range from 0 to n-1. 
 */
 
 std:: vector<int> makeVector(int n){
@@ -19,8 +18,7 @@ std:: vector<int> makeVector(int n){
 
 
 /*Task B
-- Implements the function vector<int> goodVibes(const vector<int>& v); 
-- Given a vector of integers, return a vector with only the positive integers in the same order.
+- Returns a vector with only the positive integers in the same order.
 
 vector<int> v{1,2,-1,3,4,-1,6};
 goodVibes(v); // returns [1,2,3,4,6]
@@ -40,7 +38,6 @@ std:: vector<int> goodVibes(const std:: vector<int>& v){
 
 
 /*Task C
-- Implements the function void gogeta(vector<int> &goku, vector<int> &vegeta)
 - Appends elements of the second vector into the first and empties the second vector
 
 vector<int> v1{1,2,3};
@@ -48,8 +45,6 @@ vector<int> v2{4,5};
 gogeta(v1, v2); // v1 is now [1,2,3,4,5] and v2 is empty.
 */
 void gogeta(std:: vector<int> &goku, std:: vector<int> &vegeta){
-  //1)push back v2 into v1
-  //2)remove elements from v2
   
   for(int i = 0; i < vegeta.size(); i++){
     goku.push_back(vegeta[i]); //adding the contents of vegeta to the back of goku contents
@@ -61,7 +56,6 @@ void gogeta(std:: vector<int> &goku, std:: vector<int> &vegeta){
 
 
 /*Task D
-- Implements the function vector<int> sumPairWise(const vector<int> &v1, const vector<int> &v2) 
 - Returns a vector of integers whose elements are the pairwise sum of the elements from the two vectors passed as arguments
 - If a vector has a smaller size than the other, consider extra entries from the shorter vectors as 0
 
@@ -97,3 +91,4 @@ std:: vector<int> sumPairWise(const std:: vector<int> &v1, const std:: vector<in
   return addIndexValues;
   
 }
+
